@@ -1,0 +1,56 @@
+2024-06-07 04:30:32,187 [INFO] Starting cpptestcov-compute 2024.1.0 (10.7.0.20240528B712)... at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:31)
+2024-06-07 04:30:32,202 [INFO] Arguments: [-show-settings] at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:32)
+2024-06-07 04:30:32,203 [INFO] Max memory available: 1549795328 at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:33)
+2024-06-07 04:30:32,205 [INFO] Available CPUs: 2 at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:34)
+2024-06-07 04:30:32,205 [INFO] Java home: /usr/lib/jvm/java-19-openjdk-amd64 at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:35)
+2024-06-07 04:30:32,206 [INFO] Java version: 19.0.2 at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:36)
+2024-06-07 04:30:32,206 [INFO] Java vendor: Private Build at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:37)
+2024-06-07 04:30:32,207 [INFO] OS arch: amd64 at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:38)
+2024-06-07 04:30:32,209 [INFO] OS name: Linux at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:39)
+2024-06-07 04:30:32,209 [INFO] OS version: 6.5.0-35-generic at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:40)
+2024-06-07 04:30:32,210 [INFO] Working dir (user.dir): /home/andrey/sandbox/training_ct/coverage-gt at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:41)
+2024-06-07 04:30:32,210 [INFO] Home dir (user.home): /home/andrey at com.parasoft.cpptest.coverage.common.Logging.initLogger(Logging.java:42)
+2024-06-07 04:30:33,271 [INFO] Started ProfilerDumper listening thread on command file: /home/andrey/sandbox/training_ct/coverage-gt/xtest_dump_stats.cmd at com.parasoft.xtest.common.profiler.ProfilerStatisticsService.<init>(ProfilerStatisticsService.java:54)
+2024-06-07 04:30:33,645 [WARN] Break execution at com.parasoft.cpptest.coverage.CoverageCompute.call(CoverageCompute.java:159)
+com.parasoft.cpptest.coverage.common.BreakExecutionException: null
+	at com.parasoft.cpptest.coverage.common.Settings.loadSettings(Settings.java:123) ~[com.parasoft.cpptest.coverage.common-2024.1.0.20240528B712.jar:?]
+	at com.parasoft.cpptest.coverage.CoverageCompute.callImpl(CoverageCompute.java:181) ~[com.parasoft.cpptest.coverage.compute-2024.1.0.20240528B712.jar:?]
+	at com.parasoft.cpptest.coverage.CoverageCompute.call(CoverageCompute.java:156) ~[com.parasoft.cpptest.coverage.compute-2024.1.0.20240528B712.jar:?]
+	at com.parasoft.cpptest.coverage.CoverageCompute.call(CoverageCompute.java:66) ~[com.parasoft.cpptest.coverage.compute-2024.1.0.20240528B712.jar:?]
+	at picocli.CommandLine.executeUserObject(CommandLine.java:1953) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine.access$1300(CommandLine.java:145) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2358) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2352) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2314) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2179) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2316) ~[picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine.execute(CommandLine.java:2078) ~[picocli-4.6.3.jar:4.6.3]
+	at com.parasoft.cpptest.coverage.CoverageCompute.executeCC(CoverageCompute.java:146) ~[com.parasoft.cpptest.coverage.compute-2024.1.0.20240528B712.jar:?]
+	at com.parasoft.cpptest.coverage.CoverageCompute.main(CoverageCompute.java:128) ~[com.parasoft.cpptest.coverage.compute-2024.1.0.20240528B712.jar:?]
+2024-06-07 04:30:33,741 [INFO] Diagnostics mode is ON. File=/tmp/parasoft-andrey/storages/storage_2024-06-07_04-30-30/logs/run_2024-06-07_04-30-30/xtest.diagnostics.txt at com.parasoft.xtest.services.api.diagnostics.ServiceDiagnosticCollector.initialize(ServiceDiagnosticCollector.java:293)
+2024-06-07 04:30:33,881 [DEBUG]  at com.parasoft.xtest.common.profiler.ProfilerStatisticsService.doLog(ProfilerStatisticsService.java:133)
+2024-06-07 04:30:33,944 [DEBUG] Total: 0 seconds (total - 0 seconds) at com.parasoft.xtest.common.profiler.ProfilerStatisticsService.doLog(ProfilerStatisticsService.java:136)
+2024-06-07 04:30:34,076 [DEBUG] Memory Statistics Profiler
++ -------------- + --------- +
+| Memory Metric  | Size [MB] |
++ -------------- + --------- +
+| Current memory | 13        |
+| Max memory     | 1550      |
+| Total memory   | 13        |
++ -------------- + --------- +
+ at com.parasoft.xtest.common.profiler.ProfilerStatisticsService.doLog(ProfilerStatisticsService.java:140)
+2024-06-07 04:30:34,079 [DEBUG] Log Issues Profiler
++ ------------- + ----- +
+| Logging Level | Count |
++ ------------- + ----- +
+| TRACE         | 0     |
+| TIME          | 0     |
+| DEBUG         | 3     |
+| INFO          | 14    |
+| WARN          | 1     |
+| ERROR         | 0     |
+| FATAL         | 0     |
++ ------------- + ----- +
+ at com.parasoft.xtest.common.profiler.ProfilerStatisticsService.doLog(ProfilerStatisticsService.java:144)
+2024-06-07 04:30:34,083 [DEBUG]  at com.parasoft.xtest.common.io.FileInfoServiceFactory.shutdown(FileInfoServiceFactory.java:76)
+2024-06-07 04:30:34,124 [INFO] Exiting (code 0)... at com.parasoft.cpptest.coverage.CoverageCompute.main(CoverageCompute.java:129)
