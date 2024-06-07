@@ -3,7 +3,7 @@ name: Unit testing with coverage (master)
 on:
   pull_request:
     branches:
-      - master
+      - main
 env:
   LINE_COV_GATE: 60
   MCDC_COV_GATE: 30
